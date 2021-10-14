@@ -34,5 +34,34 @@ namespace Petrol_station
                     e.Handled = true;
             }
         }
+
+        private void okButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void sumTextBox_TextChanged(object sender, EventArgs e)
+        {
+            if(this.sumTextBox.Text!="," || this.sumTextBox.Text.Length > 0 || this.petrolComboBox.SelectedIndex != -1)
+            {
+                this.okButton.Enabled = true;
+            }
+            else
+            {
+                this.okButton.Enabled = false;
+            }
+        }
+
+        private void petrolComboBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (this.sumTextBox.Text != "," || this.sumTextBox.TextLength > 0)
+            {
+                this.okButton.Enabled = true;
+            }
+            else
+            {
+                this.okButton.Enabled = false;
+            }
+        }
     }
 }

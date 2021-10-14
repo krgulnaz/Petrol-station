@@ -62,6 +62,7 @@
             this.sumTextBox.Name = "sumTextBox";
             this.sumTextBox.Size = new System.Drawing.Size(136, 20);
             this.sumTextBox.TabIndex = 2;
+            this.sumTextBox.TextChanged += new System.EventHandler(this.sumTextBox_TextChanged);
             this.sumTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.sumTextBox_KeyPress);
             // 
             // petrolComboBox
@@ -71,6 +72,7 @@
             this.petrolComboBox.Name = "petrolComboBox";
             this.petrolComboBox.Size = new System.Drawing.Size(136, 21);
             this.petrolComboBox.TabIndex = 3;
+            this.petrolComboBox.SelectedIndexChanged += new System.EventHandler(this.petrolComboBox_SelectedIndexChanged);
             // 
             // okButton
             // 
@@ -80,6 +82,7 @@
             this.okButton.TabIndex = 4;
             this.okButton.Text = "Ok";
             this.okButton.UseVisualStyleBackColor = true;
+            this.okButton.Click += new System.EventHandler(this.okButton_Click);
             // 
             // resultLabel
             // 
