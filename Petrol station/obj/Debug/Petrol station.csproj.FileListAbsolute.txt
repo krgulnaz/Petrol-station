@@ -1,0 +1,10 @@
+E:\Projects\TaskGitHub\Petrol station\Petrol station\bin\Debug\Petrol station.exe.config
+E:\Projects\TaskGitHub\Petrol station\Petrol station\bin\Debug\Petrol station.exe
+E:\Projects\TaskGitHub\Petrol station\Petrol station\bin\Debug\Petrol station.pdb
+E:\Projects\TaskGitHub\Petrol station\Petrol station\obj\Debug\Petrol station.csprojAssemblyReference.cache
+E:\Projects\TaskGitHub\Petrol station\Petrol station\obj\Debug\Petrol_station.Form1.resources
+E:\Projects\TaskGitHub\Petrol station\Petrol station\obj\Debug\Petrol_station.Properties.Resources.resources
+E:\Projects\TaskGitHub\Petrol station\Petrol station\obj\Debug\Petrol station.csproj.GenerateResource.cache
+E:\Projects\TaskGitHub\Petrol station\Petrol station\obj\Debug\Petrol station.csproj.CoreCompileInputs.cache
+E:\Projects\TaskGitHub\Petrol station\Petrol station\obj\Debug\Petrol station.exe
+E:\Projects\TaskGitHub\Petrol station\Petrol station\obj\Debug\Petrol station.pdb

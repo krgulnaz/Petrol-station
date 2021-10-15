@@ -88,7 +88,7 @@
             // 
             this.resultLabel.Location = new System.Drawing.Point(17, 128);
             this.resultLabel.Name = "resultLabel";
-            this.resultLabel.Size = new System.Drawing.Size(188, 46);
+            this.resultLabel.Size = new System.Drawing.Size(188, 70);
             this.resultLabel.TabIndex = 5;
             // 
             // Form1
@@ -96,7 +96,7 @@
             this.AcceptButton = this.okButton;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(225, 188);
+            this.ClientSize = new System.Drawing.Size(225, 207);
             this.Controls.Add(this.resultLabel);
             this.Controls.Add(this.okButton);
             this.Controls.Add(this.petrolComboBox);
@@ -105,7 +105,7 @@
             this.Controls.Add(this.label1);
             this.MaximizeBox = false;
             this.Name = "Form1";
-            this.Text = "Petrol station";
+            this.Text = "Gasoline";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
